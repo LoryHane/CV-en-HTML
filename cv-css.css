@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #e2e2e2
+    background: #e2e2e2;
 }
 p{
     font-size: 1em;
@@ -17,6 +17,9 @@ a{
     text-decoration: none;
     color: #000
 }
+h2{
+    text-decoration: underline;
+}
 
 /*HEADER*/
 header {
@@ -25,15 +28,16 @@ header {
     background: url("cover.jpg") #4f4f4f;
     box-shadow: 0px 0px 15px #333;
     border-bottom: 2px solid #fff;
-    height: 120px
+    height: 120px;
+    text-align: center;
 }
 header h1{
-    text-align: center;
-    color:black;
+    color: #000;
     background-color: #0072d3;
+    display: inline;
     font-size: 1.5em;
-    width: 90%;
     margin: 0 auto;
+    border-radius: 5px;
 }
 
 /*SECTIONS*/
@@ -86,7 +90,7 @@ section > div{
     flex: 0 0 20%;
 }
 .contact-flex p:last-child{
-    flex: 0 0 60%;
+    flex: 0 0 80%;
 }
 .social{
     display: flex;
@@ -139,10 +143,10 @@ section > div{
 }
 .comp-logo{
     flex: 0 0 25%;
-    max-width: 100px;
+    max-width: 50px;
 }
 .comp-info{
-    flex: 0 0 70%;
+    flex: 0 0 95%;
     margin-left: auto;
 }
 .comp img{
@@ -157,6 +161,8 @@ section > div{
     flex-flow: column wrap;
     align-items: center;
     margin-bottom: 20px;
+    font-weight: bold;
+    font-style: italic;
 }
 .interet img{
     width: 100px;
@@ -170,7 +176,7 @@ section > div{
         box-shadow: 0px 0px 10px #bbb;
     }
     a:hover{
-        color: #ea0;
+        color: #0072d3;
     }
     header h1{
         width:80%
@@ -192,9 +198,9 @@ section > div{
         border: 2px solid transparent;
     }
     .introduction a:hover{
-        color: #f28835;
+        color: #0072d3;
         background-color: #fff;
-        border: 2px solid #f28835;
+        border: 2px solid #0072d3;
         box-shadow: 0px 0px 20px #666;
     }
     .exp-logo{
